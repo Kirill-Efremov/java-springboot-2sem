@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 600px; /* Уменьшил ширину контейнера для лучшего центрирования на мобильных устройствах */
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+    border: 2px solid #007bff; /* Голубая рамка */
+    border-radius: 10px; /* Скругленные углы */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Тень */
+}
+
+.post-photo {
+    margin-bottom: 20px;
+}
+
+.photo {
+    border: 2px solid black;
+    border-radius: 20px;
+    width: 400px; /* Ширина фотографии */
+    height: 400px;
+}
+
+.post-info {
+    font-size: 18px;
+    margin-bottom: 10px;
+    text-align: left; /* Выравнивание текста по левому краю */
+}
+
+.post-info b {
+    font-weight: bold;
+    color: #333; /* Цвет жирного текста */
+}
+
+.post-info span {
+    margin-left: 10px;
+    color: #666; /* Цвет обычного текста */
+}
+
+.author-link {
+    font-weight: bold;
+    color: #007bff; /* Цвет ссылки */
+    text-decoration: none;
+}
+
+.author-link:hover {
+    text-decoration: underline;
+}

@@ -1,0 +1,22 @@
+.user-info-text {
+    margin-top: 20px;
+}
+
+.user-info-text .post-photo {
+    margin-bottom: 20px;
+}
+
+.user-info {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.white-container {
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
